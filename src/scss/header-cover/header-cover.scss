@@ -1,0 +1,30 @@
+.header-cover {
+    height: 695px;
+    background-image: url(images/header-cover_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .header-cover {
+        background-size: 160%;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .header-cover {
+        background-size: 180%;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+    
+    .header-cover {
+        background-size: 200%;
+    }
+}

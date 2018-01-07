@@ -1,0 +1,30 @@
+.menu {
+    display: inline-block;
+    font-family: Gagalin, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: $color-master;
+    cursor: pointer;
+    transition-duration: .3s;
+    
+    &:hover {
+        color: $color-title;
+        transition-duration: .3s;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .menu {
+        font-size: 38px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+
+    .menu {
+        font-size: 32px;
+    }
+}

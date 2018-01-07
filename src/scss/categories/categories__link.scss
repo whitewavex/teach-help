@@ -1,0 +1,16 @@
+.categories__link {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color: $color-title;
+    transition-duration: .5s;
+    
+    &:hover {
+        color: $color-title;
+        text-decoration: none;
+        transform: translateX(-10px);
+        transition-duration: .5s;
+    }
+}

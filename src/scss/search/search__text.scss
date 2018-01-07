@@ -1,0 +1,17 @@
+.search__text {
+    border: none;
+    height: 40px;
+    width: 200px;
+    background-color: $color-bold;
+    padding-left: 28px;
+    color: $color-title;
+    margin-right: 0;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+input.search__text::placeholder {
+    color: $color-title;
+}

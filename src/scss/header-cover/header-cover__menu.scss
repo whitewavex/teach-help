@@ -1,0 +1,27 @@
+.header-cover__menu {
+    margin-top: 150px;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .header-cover__menu {
+        margin-top: 80px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .header-cover__menu {
+        margin-top: 80px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+
+    .header-cover__menu {
+        margin-top: 58px;
+    }
+}

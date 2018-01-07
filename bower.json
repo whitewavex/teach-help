@@ -1,0 +1,17 @@
+{
+  "name": "teach-help_html",
+  "description": "front-end teach-help.com.ua",
+  "main": "index.js",
+  "authors": [
+    "Alexandr Kovalenko"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+.categories__close {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    font-size: 30px;
+    color: $color-title;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
