@@ -14,3 +14,20 @@
         transition-duration: .5s;
     }
 }
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .categories__link {
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .categories__link {
+        font-size: 16px;
+        font-style: normal;
+    }
+}

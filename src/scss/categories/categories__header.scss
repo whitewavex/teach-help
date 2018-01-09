@@ -1,7 +1,40 @@
 .categories__header {
     font-family: Gagalin, sans-serif;
-    font-size: 40px;
+    font-size: 38px;
     color: $color-title;
     margin-left: -100px;
     opacity: 0;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .categories__header {
+        margin-bottom: 60px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .categories__header {
+        margin-bottom: 40px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .categories__header {
+        margin-bottom: 30px;
+        font-size: 32px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .categories__header {
+        font-size: 28px;
+    }
 }

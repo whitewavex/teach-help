@@ -33,15 +33,51 @@ $(document).ready(function() {
     
 //    OPEN CATEGORIES
     $('.menu').click(function() {
+        var widthCategory;
+        var marginLeft;
+        var paddingAll;
+        var width = $(window).width();
+        var height = $('.categories').height();
+        var marginTop = -height/2;
+        if( width >= 1200 ) {
+            widthCategory = 1100;
+            marginLeft = -550;
+            paddingAll = 30;
+        }
+        else if( width < 1200 && width >= 992 ) {
+            widthCategory = 970;
+            marginLeft = -485;
+            paddingAll = 30;
+        }
+        else if( width < 992 && width >= 767 ) {
+            widthCategory = width-30;
+            marginLeft = -widthCategory/2;
+            paddingAll = 30;
+        }
+        else if( width < 767 && width >= 575 ) {
+            widthCategory = width-30;
+            marginLeft = -widthCategory/2;
+            paddingAll = '30 10 10 10';
+        }
+        else if( width < 575 && width >= 480 ) {
+            widthCategory = width-8;
+            marginLeft = -widthCategory/2;
+            paddingAll = '12';
+        }
+        else {
+            widthCategory = width-30;
+            marginLeft = -widthCategory/2;
+            paddingAll = '30 10 10 10';
+        }
         $('.overlay').fadeTo(500, 0.6);
         $('.categories').animate({
-            'margin-top': -300,
+            'margin-top': marginTop,
             top: '50%'
         }, 500, function() {
             $('.categories').animate({
-                'margin-left': -550,
-                padding: 30,
-                width: 1100
+                'margin-left': marginLeft,
+                padding: paddingAll,
+                width: widthCategory
             }, 500, function() {
                 $('.categories__header').animate({
                     opacity: 1,
