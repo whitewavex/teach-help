@@ -92,4 +92,15 @@ $(document).ready(function() {
         }); // end animate
     }); // end click
     
+//    NAV-MOBILE
+    $('.nav-mobile').click(function() {
+        $(this).toggleClass('nav-mobile_active');
+        $('.burger-menu').toggleClass('burger-menu_open');
+    }); // end click
+    
+    
+    
+    
+    
+    
 });

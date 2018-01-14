@@ -1,3 +1,11 @@
 .navigation {
     background-color: $color-master;
 }
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+   
+    .navigation {
+        display: none;
+    }
+}

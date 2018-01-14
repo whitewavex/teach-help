@@ -1,0 +1,17 @@
+.burger-menu__nav {
+    position: relative;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Gagalin', 'VAG Rounded TL';
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .burger-menu__nav {
+        font-size: 40px;
+    }
+}

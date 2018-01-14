@@ -11,8 +11,10 @@
 
 /* HEADER-UP */
 @import 'header-up/header-up';
+@import 'header-up/header-up__nav-mobile';
 @import 'nav-mobile/nav-mobile';
 @import 'nav-mobile/nav-mobile__nav-line';
+@import 'nav-mobile/nav-mobile_active';
 @import 'nav-line/nav-line';
 @import 'search/search';
 @import 'search/search__text';
@@ -39,6 +41,12 @@
 @import 'navigation/navigation__list';
 @import 'navigation/navigation__item';
 @import 'navigation/navigation__link';
+@import 'burger-menu/burger-menu';
+@import 'burger-menu/burger-menu_open';
+@import 'burger-menu/burger-menu__nav';
+@import 'burger-menu/burger-menu__list';
+@import 'burger-menu/burger-menu__item';
+@import 'burger-menu/burger-menu__link';
 
 /* WELCOME */
 @import 'welcome/welcome';

@@ -1,0 +1,31 @@
+.burger-menu__link {
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    
+    &:hover,
+    &:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    &:hover:after,
+    &:focus:after,
+    &:active:after {
+        width: 100%;
+    }
+    
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0%;
+        transform: translateX(-50%);
+        height: 3px;
+        background: #fff;
+        transition: .4s;
+    }
+}
