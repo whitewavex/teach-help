@@ -1,0 +1,13 @@
+.navigation__item {
+    float: left;
+    font-family: 'VAG Rounded TL';
+    font-size: 26px;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .navigation__item {
+        font-size: 22px;
+    }
+}

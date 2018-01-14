@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body class="page">
-    <header class="header">
+    <header class="header-block">
         <div class="header-up">
-            <div class="container">
+            <div class="container-fluid">
+                <div class="nav-mobile float-left">
+                    <a href="#" class="nav-line nav-mobile__nav-line"></a>
+                    <a href="#" class="nav-line nav-mobile__nav-line"></a>
+                    <a href="#" class="nav-line nav-mobile__nav-line"></a>
+                </div>
                 <form class="search float-right" action="">
                     <input class="search__text" type="search" placeholder="Пошук...">
                     <button class="search__btn">
@@ -54,9 +59,50 @@
         </div>
         <div class="overlay"></div>
         <div class="navigation">
-            
+            <div class="container">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Головна</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Мультфільми</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Презентації</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Вправи</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Публікації</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Тренінгові заняття</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <h3 class="header welcome__header">Шановні вчителі і батьки молодших школярів!</h3>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="info welcome__info">
+                    <img src="images/info_img.jpg" alt="" class="info__img float-left">
+                    <div class="info__content float-left">
+                        <p>На нашому сайті розміщені мультфільми та розяснено їх педагогічний вплив на юного глядача; презентації якими можна доповнити заняття як класні (з предметів: “основи здоров’я”, “сходинки до інформатики”, “мистецтво”, “музичне мистетство”, “образотворче мистецтво”, “Я у світі” та ін.) так і позакласні тренінгові заняття; вправи; тренінгові заняття які спрямовані на формування соціальної компетентності молодших школярів.</p>
+                        <p>Також ви безкоштовно можете зкачувати з нашого сайту необхідні для вас матеріали.</p>
+                        <p>Сподіваємось, що наші здобутки допоможуть вам у формуванні соціальної компетентності молодших школярів.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section></section>
+    </main>
     <script src="libs/jquery.min.js" type="text/javascript"></script>
     <script src="libs/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>

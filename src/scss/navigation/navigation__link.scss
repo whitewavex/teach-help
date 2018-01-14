@@ -1,0 +1,21 @@
+.navigation__link {
+    display: block;
+    color: #fff;
+    padding: 18px 21px;
+    transition-duration: .2s;
+    
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: $color-bold;
+        transition-duration: .2s;
+    }
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .navigation__link {
+        padding: 18px;
+    }
+}

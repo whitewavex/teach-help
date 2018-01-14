@@ -11,6 +11,9 @@
 
 /* HEADER-UP */
 @import 'header-up/header-up';
+@import 'nav-mobile/nav-mobile';
+@import 'nav-mobile/nav-mobile__nav-line';
+@import 'nav-line/nav-line';
 @import 'search/search';
 @import 'search/search__text';
 @import 'search/search__btn';
@@ -27,5 +30,21 @@
 @import 'categories/categories__header';
 @import 'categories/categories__items';
 @import 'categories/categories__link';
-@import 'header/header__categories';
+@import 'header-block/header__categories';
 @import 'overlay/overlay';
+
+/* NAVIGATION */
+
+@import 'navigation/navigation';
+@import 'navigation/navigation__list';
+@import 'navigation/navigation__item';
+@import 'navigation/navigation__link';
+
+/* WELCOME */
+@import 'welcome/welcome';
+@import 'welcome/welcome__header';
+@import 'welcome/welcome__info';
+@import 'header/header';
+@import 'dot/dot';
+@import 'info/info';
+@import 'info/info__content';

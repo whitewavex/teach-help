@@ -2,7 +2,6 @@ $(document).ready(function() {
     
 //    CLOSE CATEGORIES
     $('.categories__close').click(function() {
-        $('.categories__close').fadeOut(500);
         $('.categories__header').animate({
             opacity: 0
         }, 500);
@@ -16,7 +15,7 @@ $(document).ready(function() {
                 'margin-left': 0
             }, 500, function() {
                 $('.categories').animate({
-                   top: '100%',
+                   top: '150%',
                     'margin-top': 0
                 }, 500, function() {
                     $('.categories__header').animate({
@@ -24,7 +23,7 @@ $(document).ready(function() {
                     });
                     $('.categories__items').animate({
                        'margin-right': -100 
-                    });
+                    }, 500);
                 }); // end animate 2
                 $('.overlay').fadeOut(500);
             }); // end animate
@@ -33,6 +32,7 @@ $(document).ready(function() {
     
 //    OPEN CATEGORIES
     $('.menu').click(function() {
+        $('.categories__items').css('display', 'block');
         var widthCategory;
         var marginLeft;
         var paddingAll;
