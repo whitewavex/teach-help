@@ -1,0 +1,24 @@
+.person {
+    background-color: $color-bg;
+    border-radius: 5px;
+    padding: 45px;
+    height: 100%;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .person {
+        height: auto;
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .person {
+//        margin: 0 15px;
+    }
+}
