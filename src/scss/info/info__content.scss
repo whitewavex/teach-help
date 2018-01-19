@@ -9,4 +9,35 @@
     p {
         margin-bottom: 15px;
     }
+    
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .info__content {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .info__content {
+        width: 85%;
+        margin: 7.5%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .info__content {
+        width: 91%;
+        margin: 4.5%;
+    }
 }

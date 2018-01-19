@@ -1,0 +1,19 @@
+.info__img {
+    max-width: 100%;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+     
+    .info__img {
+        max-width: 44%;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .info__img {
+        max-width: 100%;
+    }
+}

@@ -2,3 +2,11 @@
     font-family: 'VAG Rounded TL';
     font-size: 36px;
 }
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .header {
+        font-size: 31px;
+    }
+}

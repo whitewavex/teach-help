@@ -4,3 +4,20 @@
     border-radius: 5px;
     background-color: #fff;
 }
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .info  {
+        width: 477px;
+        margin: 0 auto;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .info {
+        width: 100%;
+    }
+}
