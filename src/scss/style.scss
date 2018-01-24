@@ -75,16 +75,15 @@
 @import 'copyright/copyright__text';
 @import 'logo/logo';
 
-/* CARTOONS */
-@import 'cartoons/cartoons';
-@import 'cartoons/cartoons__block';
-@import 'cartoons/cartoons__header';
-@import 'cartoons/cartoons__item';
-@import 'cartoon/cartoon';
-@import 'cartoon/cartoon__img';
-@import 'cartoon/cartoon__info';
-@import 'cartoon/cartoon__header';
-@import 'cartoon/cartoon__button';
+/* POSTS */
+@import 'posts/posts__block';
+@import 'posts/posts__header';
+@import 'posts/posts__item';
+@import 'post/post';
+@import 'post/post__img';
+@import 'post/post__info';
+@import 'post/post__header';
+@import 'post/post__button';
 @import 'button/button';
 @import 'button/button_info';
 @import 'button/button_play';

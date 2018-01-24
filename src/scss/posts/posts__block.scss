@@ -1,4 +1,4 @@
-.cartoons__block {
+.posts__block {
     background-color: $color-bg;
     text-align: center;
     padding-top: 80px;
@@ -8,7 +8,7 @@
 /* Large Devices, Desktops */
 @media only screen and (max-width : 991px) {
     
-    .cartoons__block {
+    .posts__block {
         padding-top: 40px;
         padding-bottom: 20px;
     }
