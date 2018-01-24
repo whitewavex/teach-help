@@ -1,0 +1,14 @@
+.button_info {
+    border: 1px solid #2db4c8;
+    color: #2db4c8;
+    
+    &:hover {
+        background-color: #2db4c8;
+        transition-duration: .5s;
+    }
+    
+    &:active {
+        background-color: #35cde3;
+        border: 1px solid #35cde3;
+    }
+}

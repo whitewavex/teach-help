@@ -1,0 +1,10 @@
+.load__button {
+    max-width: 300px;
+	height: 68px;
+    display: flex;
+    margin: auto;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}

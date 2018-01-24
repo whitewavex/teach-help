@@ -1,0 +1,13 @@
+.load {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .load {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

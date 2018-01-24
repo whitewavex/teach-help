@@ -1,0 +1,14 @@
+.button_play {
+    border: 1px solid #ff9061;
+    color: #ff9061;
+        
+    &:hover {
+        background-color: #ff9061;
+        transition-duration: .5s;
+    }
+    
+    &:active {
+        background-color: #ffa681;
+        border: 1px solid #ffa681;
+    }
+}

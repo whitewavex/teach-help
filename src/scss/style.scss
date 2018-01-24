@@ -47,12 +47,15 @@
 @import 'burger-menu/burger-menu__list';
 @import 'burger-menu/burger-menu__item';
 @import 'burger-menu/burger-menu__link';
+@import 'not-scroll/not-scroll';
 
 /* WELCOME */
 @import 'welcome/welcome';
 @import 'welcome/welcome__header';
 @import 'welcome/welcome__info';
 @import 'header/header';
+@import 'dots/dots';
+@import 'dots/dots__item';
 @import 'dot/dot';
 @import 'info/info';
 @import 'info/info__img';
@@ -62,6 +65,7 @@
 @import 'our-team/our-team';
 @import 'our-team/our-team__header';
 @import 'person/person';
+@import 'person/person__title';
 @import 'person/person__header';
 @import 'person/person__text';
 
@@ -70,3 +74,21 @@
 @import 'copyright/copyright';
 @import 'copyright/copyright__text';
 @import 'logo/logo';
+
+/* CARTOONS */
+@import 'cartoons/cartoons';
+@import 'cartoons/cartoons__block';
+@import 'cartoons/cartoons__header';
+@import 'cartoons/cartoons__item';
+@import 'cartoon/cartoon';
+@import 'cartoon/cartoon__img';
+@import 'cartoon/cartoon__info';
+@import 'cartoon/cartoon__header';
+@import 'cartoon/cartoon__button';
+@import 'button/button';
+@import 'button/button_info';
+@import 'button/button_play';
+@import 'load/load';
+@import 'load/load__button';
+@import 'load/load__text';
+@import 'load/load__icon';

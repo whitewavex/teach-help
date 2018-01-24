@@ -9,4 +9,5 @@
     visibility: hidden;
     overflow: hidden;
     transition: opacity .4s, visibility .4s, height .4s;
+    z-index: 1;
 }

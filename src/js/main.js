@@ -96,6 +96,7 @@ $(document).ready(function() {
     $('.nav-mobile').click(function() {
         $(this).toggleClass('nav-mobile_active');
         $('.burger-menu').toggleClass('burger-menu_open');
+        $('html,body').toggleClass('not-scroll');
     }); // end click
     
     

@@ -52,6 +52,7 @@ var config = {
 
 gulp.task('html', function() {
     return gulp.src(path.src.html)
+        .pipe(rigger())
         .pipe(gulp.dest(path.build.html));
 });
 

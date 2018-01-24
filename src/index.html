@@ -1,120 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Главная</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="libs/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css"> 
-</head>
-<body class="page">
-    <header class="header-block">
-        <div class="header-up">
-            <div class="container">
-                <div class="nav-mobile header-up__nav-mobile float-left">
-                    <div href="#" class="nav-line nav-mobile__nav-line top"></div>
-                    <div href="#" class="nav-line nav-mobile__nav-line middle"></div>
-                    <div href="#" class="nav-line nav-mobile__nav-line bottom"></div>
-                </div>
-                <form class="search float-right" action="">
-                    <input class="search__text" type="search" placeholder="Пошук...">
-                    <button class="search__btn">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                </form>
-            </div>
-        </div>
-        <div class="header-cover">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="title header-cover__title col-xl-8 col-lg-10 col-sm-12">
-                        <h1 class="text-center">Сайт для вчителів і батьків молодших школярів</h1>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <div class="menu header-cover__menu">
-                            <i class="fa fa-bars menu__icon" aria-hidden="true"></i>
-                            <h3 class="menu__header">Меню</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="categories header__categories d-flex justify-content-around align-items-center">
-            <div class="categories__header">
-                <h3>Оберіть категорію</h3>
-            </div>
-            <div class="categories__items">
-                <a href="#" class="categories__link">Подолання агресивної поведінки молодших школярів</a>
-                <a href="#" class="categories__link">Робота з емоціями і почуттями молодших школярів</a>
-                <a href="#" class="categories__link">Захоплення/хоббі молодших школярів</a>
-                <a href="#" class="categories__link">Дружні стосунки в колективі молодших школярів</a>
-                <a href="#" class="categories__link">Сім’я – найцінніший скарб</a>
-                <a href="#" class="categories__link">Додатки</a>
-            </div>
-            <div class="categories__close">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </div>
-        </div>
-        <div class="overlay"></div>
-        <div class="navigation">
-            <div class="container">
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Головна</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Мультфільми</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Презентації</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Вправи</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Публікації</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#" class="navigation__link">Тренінгові заняття</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="burger-menu">
-            <div class="burger-menu__nav">
-                <ul class="burger-menu__list">
-                    <li class="burger-menu__item">
-                        <a href="#" class="burger-menu__link">Головна</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#" class="burger-menu__link">Мультфільми</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#" class="burger-menu__link">Презентації</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#" class="burger-menu__link">Вправи</a>
-                        </li>
-                    <li class="burger-menu__item">
-                        <a href="#" class="burger-menu__link">Публікації</a>
-                    </li>
-                    <li class="burger-menu__item">
-                        <a href="#" class="burger-menu__link">Тренінгові заняття</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
+    //= header.html
     <main>
         <section class="welcome">
             <div class="container">
                 <h3 class="header welcome__header">Шановні вчителі і батьки молодших школярів!</h3>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+                <div class="dots">
+                    <div class="dot dots__item"></div>
+                    <div class="dot dots__item"></div>
+                    <div class="dot dots__item"></div>
+                    <div class="dot dots__item"></div>
+                </div>
                 <div class="info welcome__info">
                     <img src="images/info_img.jpg" alt="" class="info__img float-md-left">
                     <div class="info__content float-md-left">
@@ -127,13 +21,16 @@
         </section>
         <section class="our-team container">
             <h3 class="header our-team__header">Наша команда</h3>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
+            <div class="dots">
+                <div class="dot dots__item"></div>
+                <div class="dot dots__item"></div>
+                <div class="dot dots__item"></div>
+                <div class="dot dots__item"></div>
+            </div>
             <div class="row ">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="person">
+                        <h4 class="person__title">Розробка сайту</h4>
                         <img src="images/person_1.png" alt="">
                         <h4 class="person__header">Коваленко Валентина Володимирівна</h4>
                         <p class="person__text">Соціальний педагог, молодший науковий співробітник Інституту інформаційних технологій і засобів навчання Національної академії педагогічних наук України.</p>
@@ -141,6 +38,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="person">
+                        <h4 class="person__title">Web дизайн</h4>
                         <img src="images/person_2.png" alt="">
                         <h4 class="person__header">Коваленко Олександр Миколайович</h4>
                         <p class="person__text">Web розробник, аспірант інституту інформаційних технологій та засобів навчання Національної академії педагогічних наук України.</p>
@@ -148,6 +46,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="person">
+                        <h4 class="person__title">Науково-методичний супровід</h4>
                         <img src="images/person_3.png" alt="">
                         <h4 class="person__header">Лєщенко Марія Петрівна</h4>
                         <p class="person__text">Доктор педагогічних наук, професор, провідний науковий співробітник Інституту інформаційних технологій і засобів навчання Національної академії педагогічних наук України.</p>
@@ -155,21 +54,4 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="container">
-                    <div class="d-flex flex-row align-items-center">
-                        <div class="col-md-2 col-sm-3 col-3">
-                            <img src="images/logo.png" alt="" class="logo">
-                        </div>
-                        <div class="col-md-10 col-sm-9 col-9 copyright">
-                            <p class="copyright__text"><i class="fa fa-copyright copyright__img" aria-hidden="true"></i> Сайт для вчителів і батьків молодших школярів. Усі права захищено. 2014 - 2018.</p>
-                        </div>
-                    </div>
-                </img></div>
-        </footer>
-    </main>
-    <script src="libs/jquery.min.js" type="text/javascript"></script>
-    <script src="libs/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
-</body>
-</html>
+//= footer.html

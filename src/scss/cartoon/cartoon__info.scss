@@ -1,0 +1,19 @@
+.cartoon__info {
+    padding: 30px 50px;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .cartoon__info {
+        padding: 30px 20px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .cartoon__info {
+        padding: 30px 35px;
+    }
+}
