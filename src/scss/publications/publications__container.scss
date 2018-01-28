@@ -1,0 +1,14 @@
+.publications__container {
+    background-color: $color-bg;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .publications__container {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,20 @@
+.public {
+	border-radius: 5px;
+	background-color: $color-title;
+	border: solid 1px #dadada;
+    padding: 30px 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .public {
+        padding: 30px;
+    }
+}

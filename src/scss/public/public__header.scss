@@ -1,0 +1,23 @@
+.public__header {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: $color-text;
+    margin: 0 40px 60px 40px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .public__header {
+        margin: 0 0 40px;
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .public__header {
+        font-size: 14px;
+    }
+}

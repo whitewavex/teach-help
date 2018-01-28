@@ -1,0 +1,28 @@
+.public__content {
+    font-size: 16px;
+    color: $color-text;
+    text-align: justify;
+    margin: 50px 0;
+    
+    p {
+        text-indent: 40px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .public__content {
+        font-size: 14px;
+        margin: 40px 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .public__content {
+        font-size: 12px;
+        text-align: left;
+    }
+}

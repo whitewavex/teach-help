@@ -1,0 +1,31 @@
+.public__quote {
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+    font-style: italic;
+    color: #707070;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .public__quote {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .public__quote {
+        width: 100%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .public__quote {
+        font-size: 12px;
+    }
+}
