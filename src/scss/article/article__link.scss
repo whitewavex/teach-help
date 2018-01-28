@@ -1,0 +1,24 @@
+.article__link {
+    width: 100%;
+    text-align: left;
+    font-family: 'VAG Rounded TL';
+    font-size: 22px;
+    color: #000;
+    border-radius: 0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition-duration: .3s;
+    
+    &:hover {
+        color: #000;
+        text-decoration: none;
+        background-color: $color-master;
+        color: $color-title;
+    }
+    
+    &:focus {
+        text-decoration: none;
+    }
+}

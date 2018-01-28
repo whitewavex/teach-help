@@ -1,0 +1,10 @@
+.article__header {
+    padding: 0;
+    border-bottom: 0;
+    border-radius: 0;
+    background-color: $color-title;
+    
+    &:first-child {
+        border-radius: 0;
+    }
+}

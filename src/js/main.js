@@ -99,7 +99,16 @@ $(document).ready(function() {
         $('html,body').toggleClass('not-scroll');
     }); // end click
     
-    
+//    TURN ARROW ACCORDION
+    $('.article__link').click(function() {
+        if( $(this).children('.article__icon').hasClass('article__icon_down') ) {
+            $(this).children('.article__icon').removeClass('article__icon_down');
+        }
+        else {
+            $('.article__icon').removeClass('article__icon_down');
+            $(this).children('.article__icon').addClass('article__icon_down');
+        }
+    }); // end click
     
     
     
