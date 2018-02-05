@@ -1,0 +1,23 @@
+.not-found__img {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .not-found__img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+    
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .not-found__img {
+        max-width: 50%;
+    }
+}

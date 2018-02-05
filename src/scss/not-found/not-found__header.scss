@@ -1,0 +1,16 @@
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .not-found__header {
+        font-size: 28px;
+    }
+}
+
+    
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .not-found__header {
+        font-size: 24px;
+    }
+}
