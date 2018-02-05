@@ -117,7 +117,6 @@
 /* TRAININGS */
 @import 'trainings/trainings';
 @import 'trainings/trainings__header';
-@import 'trainings/trainings__content';
 @import 'widget/widget';
 @import 'widget/widget__header';
 @import 'widget/widget__item';
@@ -133,8 +132,8 @@
 @import 'comments/comments__header';
 @import 'comments/comments__note';
 @import 'comments/comments__field';
+@import 'comments/comments__field_message';
 @import 'comments/comments__field_sm';
-@import 'comments/comments__message';
 @import 'comments/comments__title';
 @import 'comment/comment';
 @import 'comment/comment__header';
