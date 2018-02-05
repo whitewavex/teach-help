@@ -5,3 +5,11 @@
     padding: 40px;
     text-align: justify;
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .comments {
+        padding: 20px;
+    }
+}

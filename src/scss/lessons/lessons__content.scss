@@ -8,6 +8,11 @@
         line-height: 5;
     }
     
+    h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
     p {
         line-height: 1.6;
         margin-bottom: 8px;
@@ -33,4 +38,52 @@
     border-radius: 5px;
 	border: solid 3px $color-master;
     padding: 15px;
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .lessons__content {
+        
+        h5 {
+            font-size: 16px;
+        }
+        
+        h6 {
+            font-size: 14px;
+        }
+        
+        p {
+            font-size: 14px;
+        }
+        
+        ul {
+            font-size: 14px;
+        }
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .lessons__content {
+        
+        h5 {
+            line-height: 1.4;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        h6 {
+            font-size: 12px;
+        }
+        
+        p {
+            font-size: 12px;
+        }
+        
+        ul {
+            font-size: 12px;
+        }
+    }
 }

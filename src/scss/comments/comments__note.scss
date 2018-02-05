@@ -2,3 +2,11 @@
     color: $color-text;
     margin-bottom: 50px;
 }
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .comments__note {
+        font-size: 12px;
+    }
+}

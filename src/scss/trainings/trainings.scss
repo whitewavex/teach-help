@@ -4,3 +4,12 @@
     background-color: $color-bg;
     text-align: center;
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .trainings {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+}
