@@ -106,9 +106,37 @@
  /* PUBLIC */
 @import 'publications/publications';
 @import 'publications/publications__container';
+@import 'publications/publications__header';
 @import 'public/public';
 @import 'public/public__header';
 @import 'public/public__quote';
 @import 'public/public__content';
 @import 'public/public__button';
 @import 'public/public__author';
+
+/* TRAININGS */
+@import 'trainings/trainings';
+@import 'trainings/trainings__header';
+@import 'trainings/trainings__content';
+@import 'widget/widget';
+@import 'widget/widget__header';
+@import 'widget/widget__item';
+@import 'widget/widget__link';
+@import 'lessons/lessons';
+@import 'lessons/lessons__header';
+@import 'lessons/lessons__content';
+
+/* COMMENTS */
+@import 'main/main__comments';
+@import 'comments/comments';
+@import 'comments/comments__form';
+@import 'comments/comments__header';
+@import 'comments/comments__note';
+@import 'comments/comments__field';
+@import 'comments/comments__field_sm';
+@import 'comments/comments__message';
+@import 'comments/comments__title';
+@import 'comment/comment';
+@import 'comment/comment__header';
+@import 'comment/comment__text';
+@import 'comment/comment__button';

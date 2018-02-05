@@ -1,0 +1,10 @@
+.widget__link {
+    font-size: 14px;
+    color: #707070;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}

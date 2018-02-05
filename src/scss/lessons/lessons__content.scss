@@ -1,0 +1,36 @@
+.lessons__content {
+    color: lessons__content;
+    
+    h5 {
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        line-height: 5;
+    }
+    
+    p {
+        line-height: 1.6;
+        margin-bottom: 8px;
+        color: $color-text;
+        
+        strong {
+            color: #000;
+        }
+    }
+    
+    ul {
+        list-style: disc;
+        list-style-position: inside;
+    }
+    
+    li {
+        margin-bottom: 8px;
+        color: $color-text;
+    }
+}
+
+.border-text {
+    border-radius: 5px;
+	border: solid 3px $color-master;
+    padding: 15px;
+}
