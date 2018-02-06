@@ -18,3 +18,11 @@
         padding: 30px;
     }
 }
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .public {
+        padding: 15px;
+    }
+}
