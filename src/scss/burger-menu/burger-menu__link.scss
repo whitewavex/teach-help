@@ -1,13 +1,13 @@
 .burger-menu__link {
     display: block;
     position: relative;
-    color: #fff;
+    color: $color-title;
     text-decoration: none;
     overflow: hidden;
     
     &:hover,
     &:focus {
-        color: #fff;
+        color: $color-title;
         text-decoration: none;
     }
     
@@ -25,7 +25,7 @@
         width: 0%;
         transform: translateX(-50%);
         height: 3px;
-        background: #fff;
+        background: $color-title;
         transition: .4s;
     }
 }

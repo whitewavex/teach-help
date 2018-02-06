@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
@@ -12,11 +12,11 @@
         <div class="header-up">
             <div class="container">
                 <div class="nav-mobile header-up__nav-mobile float-left">
-                    <div href="#" class="nav-line nav-mobile__nav-line top"></div>
-                    <div href="#" class="nav-line nav-mobile__nav-line middle"></div>
-                    <div href="#" class="nav-line nav-mobile__nav-line bottom"></div>
+                    <a href="#" class="nav-line nav-mobile__nav-line top"></a>
+                    <a href="#" class="nav-line nav-mobile__nav-line middle"></a>
+                    <a href="#" class="nav-line nav-mobile__nav-line bottom"></a>
                 </div>
-                <form class="search float-right" action="">
+                <form class="search float-right">
                     <input class="search__text" type="search" placeholder="Пошук...">
                     <button class="search__btn">
                         <i class="fa fa-search" aria-hidden="true"></i>
@@ -118,7 +118,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <sidebar class="sidebar">
+                    <div class="sidebar">
                         <div class="widget">
                             <h4 class="widget__header">Мандрівка країною здоров’я</h4>
                             <ul class="widget__list">
@@ -142,7 +142,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </sidebar>
+                    </div>
                 </div>
                 <div class="col-lg-8">
                     <main class="main">
@@ -228,7 +228,7 @@
                         <div class="comments main__comments">
                             <h4 class="comments__header">Оставить комментарий</h4>
                             <p class="comments__note">Ваш email не будет опубликован. Обязательные поля отмечены *</p>
-                            <form action="" class="comments__form">
+                            <form class="comments__form">
                                 <div class="row">
                                     <div class="col-md-4 col-sm-8 col-9">
                                         <input type="text" class="comments__field" placeholder="Ваше ім'я *">
@@ -242,12 +242,12 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <textarea name="" id="" cols="30" rows="10" class="comments__field comments__field_message" placeholder="Текст повідомлення..."></textarea>
+                                        <textarea cols="30" rows="10" class="comments__field comments__field_message" placeholder="Текст повідомлення..."></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4 col-9">
-                                        <input type="submit" class="button comments__field comments__field_sm" placeholder="Відправити">
+                                        <input type="submit" class="button comments__field comments__field_sm" value="Відправити">
                                     </div>
                                 </div>
                             </form>
@@ -296,18 +296,18 @@
     </div>
     <footer class="footer">
         <div class="container">
-                <div class="d-flex flex-row align-items-center">
-                    <div class="col-md-2 col-sm-3 col-3">
-                        <img src="images/logo.png" alt="" class="logo">
-                    </div>
-                    <div class="col-md-10 col-sm-9 col-9 copyright">
-                        <p class="copyright__text"><i class="fa fa-copyright copyright__img" aria-hidden="true"></i> Сайт для вчителів і батьків молодших школярів. Усі права захищено. 2014 - 2018.</p>
-                    </div>
+            <div class="d-flex flex-row align-items-center">
+                <div class="col-md-2 col-sm-3 col-3">
+                    <img src="images/logo.png" alt="" class="logo">
                 </div>
-            </img></div>
+                <div class="col-md-10 col-sm-9 col-9 copyright">
+                    <p class="copyright__text"><i class="fa fa-copyright copyright__img" aria-hidden="true"></i> Сайт для вчителів і батьків молодших школярів. Усі права захищено. 2014 - 2018.</p>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="libs/jquery.min.js" type="text/javascript"></script>
-    <script src="libs/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
