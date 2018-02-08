@@ -3,6 +3,12 @@
     border-radius: 5px;
     padding: 35px;
     height: 100%;
+    
+    p {
+        text-align: left;
+        font-size: 14px;
+        color: $color-text;
+    }
 }
 
 /* Extra Large Devices, Wide Screens */
