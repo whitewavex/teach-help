@@ -110,5 +110,10 @@ $(document).ready(function() {
         }
     }); // end click
     
+//    FANCYBOX
+    
+    $("[data-fancybox]").fancybox({
+        toolbar: false
+    });
     
 });

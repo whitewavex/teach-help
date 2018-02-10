@@ -1,0 +1,61 @@
+.content {
+    padding: 40px;
+    width: 1280px;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0;
+    
+    
+    h3 {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: $color-text;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    p {
+        text-indent: 36px;
+        font-size: 16px;
+        color: $color-text;
+    }
+}
+
+button.fancybox-close-small {
+    
+    &:focus::after {
+        outline: none;
+        border: none;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .content {
+        max-width: 100%;
+        max-height: 100%;
+        
+        h3 {
+            font-size: 26px;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .content {
+        padding: 24px;
+        
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 14px;
+        }
+    }
+}
