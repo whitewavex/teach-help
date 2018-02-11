@@ -1,0 +1,38 @@
+.pagination {
+    background-color: #fff;
+    justify-content: center;
+}
+
+.page-numbers {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid $color-master;
+    border-radius: 5px;
+    color: $color-master;
+    transition: .3s;
+    
+    &:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+        background-color: $color-master;
+        transition: .3s;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+   
+    .pagination {
+        display: flex;
+    }
+}
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .page-numbers {
+        font-size: 14px;
+    }
+}
