@@ -1,11 +1,10 @@
 .publications__container {
     background-color: $color-bg;
     padding-top: 80px;
-    padding-bottom: 40px;
 }
 
-/* Medium Devices, Tablets */
-@media only screen and (max-width : 767px) {
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
     
     .publications__container {
         padding-top: 50px;
