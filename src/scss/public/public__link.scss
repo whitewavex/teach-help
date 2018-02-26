@@ -1,0 +1,8 @@
+.public__link {
+    color: $color-note;
+    
+    &:hover {
+        text-decoration: none;
+        color: $color-master;
+    }
+}
