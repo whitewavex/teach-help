@@ -116,4 +116,12 @@ $(document).ready(function() {
         toolbar: false
     });
     
+//    BLOCKUOTE
+    
+    var blockquote = $('blockquote');
+    
+    var blockquote_text = blockquote.text();
+    
+    blockquote.html('"' + blockquote_text + '"');
+    
 });

@@ -1,7 +1,7 @@
 .public__content {
     font-size: 16px;
     color: $color-text;
-    text-align: justify;
+    text-align: center;
     margin: 50px 0 20px;
     overflow: hidden;
     
@@ -15,6 +15,64 @@
         float: left;
         margin: 0 23px 20px 0;
     }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $font-title;
+        color: #000;
+        margin: 20px auto;
+        text-align: justify;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    h4 {
+        font-size: 23px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+    
+    h6 {
+        font-size: 18px;
+    }
+    
+    ul, ol {
+        padding-left: 20px;
+    }
+    
+    ul {
+        list-style-type: disc;
+        text-align: justify;
+    }
+    
+    ol {
+        list-style-type: decimal;
+        text-align: justify;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+    
+    blockquote {
+        font-style: italic;
+        text-align: justify;
+    }
+    
+    a {
+        color: #15895a;
+    }
 }
 
 /* Medium Devices, Tablets */
@@ -23,7 +81,6 @@
     .public__content {
         font-size: 14px;
         margin: 40px 0;
-        text-align: center;
         
         img {
             float: none;

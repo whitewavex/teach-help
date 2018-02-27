@@ -1,0 +1,40 @@
+.public__video {
+    background-color: #000;
+    width: 80%;
+    height: 480px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .public__video {
+        width: 100%;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .public__video  {
+        height: 360px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .public__video {
+        height: 260px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .public__video {
+        height: 200px;
+    }
+}
