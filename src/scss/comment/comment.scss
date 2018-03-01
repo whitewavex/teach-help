@@ -1,3 +1,24 @@
 .comment {
     margin-top: 50px;
+    
+    p {
+        color: $color-text;
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .comment p {
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .comment p {
+        font-size: 12px;
+    }
 }
