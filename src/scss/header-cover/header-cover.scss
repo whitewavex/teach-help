@@ -5,27 +5,18 @@
     background-size: cover;
 }
 
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .header-cover {
+        height: 500px;
+    }
+}
+
 /* Large Devices, Desktops */
 @media only screen and (max-width : 991px) {
     
     .header-cover {
-        background-size: 160%;
         height: auto;
-    }
-}
-
-/* Medium Devices, Tablets */
-@media only screen and (max-width : 767px) {
-    
-    .header-cover {
-        background-size: 180%;
-    }
-}
-
-/* Small Devices, Phones */
-@media only screen and (max-width : 576px) {
-    
-    .header-cover {
-        background-size: 200%;
     }
 }

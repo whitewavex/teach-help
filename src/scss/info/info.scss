@@ -18,6 +18,14 @@
 @media only screen and (max-width : 575px) {
     
     .info {
+        width: 90%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .info {
         width: 100%;
     }
 }

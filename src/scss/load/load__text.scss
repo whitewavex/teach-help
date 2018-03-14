@@ -2,3 +2,19 @@
     font-size: 24px;
     margin: auto;
 }
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .load__text {
+        font-size: 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .load__text {
+        font-size: 18px;
+    }
+}

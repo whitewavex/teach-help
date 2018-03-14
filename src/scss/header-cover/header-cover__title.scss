@@ -18,6 +18,14 @@
     }
 }
 
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .header-cover__title {
+        margin-top: 50px;
+    }
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     

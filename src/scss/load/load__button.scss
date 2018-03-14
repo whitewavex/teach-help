@@ -8,3 +8,19 @@
         text-decoration: none;
     }
 }
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .load__button {
+        max-width: 240px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .load__button {
+        max-width: 200px;
+    }
+}

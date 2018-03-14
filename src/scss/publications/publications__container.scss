@@ -12,3 +12,12 @@
         padding-bottom: 30px;
     }
 }
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .publications__container {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}

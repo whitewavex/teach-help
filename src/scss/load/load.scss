@@ -11,3 +11,12 @@
         padding-bottom: 30px;
     }
 }
+
+/* Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    
+    .load {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

@@ -5,3 +5,19 @@
     font-size: 18px;
     padding: 10px 30px;
 }
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+ 
+    .public__button {
+        font-size: 16px;
+    }
+}
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .public__button {
+        font-size: 14px;
+    }
+}

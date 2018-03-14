@@ -5,6 +5,15 @@
     text-align: center;
 }
 
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .trainings {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     

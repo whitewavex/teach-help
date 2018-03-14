@@ -22,3 +22,11 @@
         text-decoration: none;
     }
 }
+
+/* Medium Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .article__link {
+        font-size: 18px;
+    }
+}

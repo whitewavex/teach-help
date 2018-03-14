@@ -2,3 +2,11 @@
     font-size: 20px;
     margin-bottom: 30px;
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+    .person__title {
+        font-size: 18px;
+    }
+}

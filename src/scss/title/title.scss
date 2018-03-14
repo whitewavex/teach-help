@@ -4,11 +4,27 @@
     color: $color-title;
 }
 
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    
+    .title {
+        font-size: 43px;
+    }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    
+    .title {
+        font-size: 39px;
+    }
+}
+
 /* Medium Devices, Tablets */
 @media only screen and (max-width : 767px) {
     
     .title {
-        font-size: 38px;
+        font-size: 29px;
     }
 }
 
@@ -16,7 +32,7 @@
 @media only screen and (max-width : 575px) {
 
     .title {
-        font-size: 32px;
+        font-size: 23px;
     }
 }
 
@@ -24,6 +40,6 @@
 @media only screen and (max-width : 480px) {
     
     .title {
-        font-size: 30px;
+        font-size: 23px;
     }
 }
