@@ -1,0 +1,14 @@
+.button_questions {
+    border: 1px solid #b350ff;
+    color: #b350ff;
+    
+    &:hover {
+        background-color: #b350ff;
+        transition-duration: .5s;
+    }
+    
+    &:active {
+        background-color: #cc86fd;
+        border: 1px solid #cc86fd;
+    }
+}
