@@ -1,10 +1,9 @@
-/*   
+/*!   
 Theme Name: Teach
 Description: Тема для інформаційного сайта або блога. Основні кольори: зелений, сірий, білий та чорній.
 Author: Alexandr Kovalenko
 Version: 1.0.0
 */
-
 /* FONT-AWESOME */
 @import 'font-awesome/font-awesome';
 
@@ -66,7 +65,6 @@ Version: 1.0.0
 @import 'dot/dot';
 @import 'info/info';
 @import 'info/info__img';
-@import 'info/info__content';
 
 /* OUR TEAM */
 @import 'our-team/our-team';
@@ -80,6 +78,7 @@ Version: 1.0.0
 @import 'copyright/copyright';
 @import 'copyright/copyright__text';
 @import 'logo/logo';
+@import 'feedback/feedback';
 
 /* POSTS */
 @import 'posts/posts__block';
@@ -172,3 +171,16 @@ Version: 1.0.0
 
 /* PAGINATION */
 @import 'pagination/pagination';
+
+/* MODAL-FORM */
+
+@import 'modal-form/modal-form';
+@import 'modal-form/modal-form__close';
+@import 'modal-form/modal-form__header';
+@import 'modal-form/modal-form__input';
+@import 'modal-form/modal-form__textarea';
+@import 'modal-form/modal-form__button';
+
+/* MODAL-BG */
+
+@import 'modal-bg/modal-bg';

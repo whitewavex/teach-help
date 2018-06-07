@@ -1,0 +1,19 @@
+.modal-form__textarea {
+    width: 100%;
+	border-radius: 5px;
+	background-color: $color-title;
+	border: solid 1px #dadada;
+    padding: 15px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+    &::placeholder {
+        color: #a7a6a6;
+    }
+    
+    &:focus {
+        outline: none;
+        border: 1px solid $color-master;
+    }
+}

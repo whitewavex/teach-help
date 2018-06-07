@@ -1,0 +1,19 @@
+.feedback {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: $color-master;
+    color: #fff;
+    padding: 7px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    transition: .2s;
+    
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: #33934f;
+        transition: .2s;
+    }
+}

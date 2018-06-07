@@ -1,5 +1,30 @@
 $(document).ready(function() {
     
+//    OPEN MODAL
+    
+    $('.feedback').click(function(e) {
+        e.preventDefault();
+        $('.modal-bg').fadeIn(300, function() {
+            $('#modal-form').css({
+                'display': 'block' 
+            }).animate({
+                'opacity': 1 
+            }, 300);
+        });
+    });
+    
+    
+//    CLOSE MODAL
+    
+    $('.modal-form__close').click(function() {
+        $('#modal-form').animate({
+            'opacity': 0
+        },300, function() {
+            $('#modal-form').css({'display':'none'});
+            $('.modal-bg').fadeOut(300);
+        });
+    });
+    
 //    CLOSE CATEGORIES
     $('.categories__close').click(function() {
         $('.categories__header').animate({
