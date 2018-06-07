@@ -3,3 +3,11 @@
     width: 50%;
     margin: auto;
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .modal-form__button {
+        width: 100%;
+    }
+}

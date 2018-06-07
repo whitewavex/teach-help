@@ -6,7 +6,7 @@
     background-color: #fff;
     margin-top: -320px;
     margin-left: -300px;
-    z-index: 5;
+    z-index: 105;
     text-align: center;
     padding: 65px 40px 45px;
     border-radius: 10px;
@@ -16,16 +16,18 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
     .modal-form {
-        width: 320px;
-        margin-left: -200px;
+        top: 60%;
+        width: 420px;
+        margin-left: -210px;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .modal-form {
-        top: 60%;
-        width: 220px;
-        margin-left: -150px;
+        top: 65%;
+        width: 320px;
+        margin-left: -160px;
+        padding: 35px 40px;
     }
 }

@@ -3,3 +3,11 @@
     text-align: center;
     color: $color-text;
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .modal-form__header {
+        font-size: 20px;
+    }
+}
